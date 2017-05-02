@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		234922CF1EB85A9800918086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234922CE1EB85A9800918086 /* AppDelegate.swift */; };
-		234922D11EB85A9800918086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234922D01EB85A9800918086 /* ViewController.swift */; };
-		234922D41EB85A9800918086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234922D21EB85A9800918086 /* Main.storyboard */; };
 		234922D71EB85A9800918086 /* TextToSpeechDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 234922D51EB85A9800918086 /* TextToSpeechDemo.xcdatamodeld */; };
 		234922D91EB85A9800918086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234922D81EB85A9800918086 /* Assets.xcassets */; };
 		234922DC1EB85A9800918086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234922DA1EB85A9800918086 /* LaunchScreen.storyboard */; };
 		234922E71EB85A9900918086 /* TextToSpeechDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234922E61EB85A9900918086 /* TextToSpeechDemoTests.swift */; };
 		234922F21EB85A9900918086 /* TextToSpeechDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234922F11EB85A9900918086 /* TextToSpeechDemoUITests.swift */; };
+		234923061EB85AEC00918086 /* ConvertTextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234922FF1EB85AEC00918086 /* ConvertTextToSpeechViewController.swift */; };
+		234923071EB85AEC00918086 /* ConvertTextToSpeechInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234923001EB85AEC00918086 /* ConvertTextToSpeechInteractor.swift */; };
+		234923081EB85AEC00918086 /* ConvertTextToSpeechModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234923011EB85AEC00918086 /* ConvertTextToSpeechModels.swift */; };
+		234923091EB85AEC00918086 /* ConvertTextToSpeechConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234923021EB85AEC00918086 /* ConvertTextToSpeechConfigurator.swift */; };
+		2349230A1EB85AEC00918086 /* ConvertTextToSpeechWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234923031EB85AEC00918086 /* ConvertTextToSpeechWorker.swift */; };
+		2349230C1EB85AEC00918086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234923051EB85AEC00918086 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		234922CB1EB85A9800918086 /* TextToSpeechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextToSpeechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		234922CE1EB85A9800918086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		234922D01EB85A9800918086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		234922D31EB85A9800918086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		234922D61EB85A9800918086 /* TextToSpeechDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextToSpeechDemo.xcdatamodel; sourceTree = "<group>"; };
 		234922D81EB85A9800918086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234922DB1EB85A9800918086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		234922ED1EB85A9900918086 /* TextToSpeechDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextToSpeechDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234922F11EB85A9900918086 /* TextToSpeechDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechDemoUITests.swift; sourceTree = "<group>"; };
 		234922F31EB85A9900918086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234922FF1EB85AEC00918086 /* ConvertTextToSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTextToSpeechViewController.swift; sourceTree = "<group>"; };
+		234923001EB85AEC00918086 /* ConvertTextToSpeechInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTextToSpeechInteractor.swift; sourceTree = "<group>"; };
+		234923011EB85AEC00918086 /* ConvertTextToSpeechModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTextToSpeechModels.swift; sourceTree = "<group>"; };
+		234923021EB85AEC00918086 /* ConvertTextToSpeechConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTextToSpeechConfigurator.swift; sourceTree = "<group>"; };
+		234923031EB85AEC00918086 /* ConvertTextToSpeechWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTextToSpeechWorker.swift; sourceTree = "<group>"; };
+		234923051EB85AEC00918086 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,9 @@
 		234922CD1EB85A9800918086 /* TextToSpeechDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2349230D1EB85AEF00918086 /* ConvertTextToSpeech */,
+				234923051EB85AEC00918086 /* Main.storyboard */,
 				234922CE1EB85A9800918086 /* AppDelegate.swift */,
-				234922D01EB85A9800918086 /* ViewController.swift */,
-				234922D21EB85A9800918086 /* Main.storyboard */,
 				234922D81EB85A9800918086 /* Assets.xcassets */,
 				234922DA1EB85A9800918086 /* LaunchScreen.storyboard */,
 				234922DD1EB85A9800918086 /* Info.plist */,
@@ -126,6 +134,18 @@
 				234922F31EB85A9900918086 /* Info.plist */,
 			);
 			path = TextToSpeechDemoUITests;
+			sourceTree = "<group>";
+		};
+		2349230D1EB85AEF00918086 /* ConvertTextToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				234922FF1EB85AEC00918086 /* ConvertTextToSpeechViewController.swift */,
+				234923001EB85AEC00918086 /* ConvertTextToSpeechInteractor.swift */,
+				234923011EB85AEC00918086 /* ConvertTextToSpeechModels.swift */,
+				234923021EB85AEC00918086 /* ConvertTextToSpeechConfigurator.swift */,
+				234923031EB85AEC00918086 /* ConvertTextToSpeechWorker.swift */,
+			);
+			name = ConvertTextToSpeech;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2349230C1EB85AEC00918086 /* Main.storyboard in Resources */,
 				234922DC1EB85A9800918086 /* LaunchScreen.storyboard in Resources */,
 				234922D91EB85A9800918086 /* Assets.xcassets in Resources */,
-				234922D41EB85A9800918086 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234922D11EB85A9800918086 /* ViewController.swift in Sources */,
+				234923091EB85AEC00918086 /* ConvertTextToSpeechConfigurator.swift in Sources */,
 				234922D71EB85A9800918086 /* TextToSpeechDemo.xcdatamodeld in Sources */,
+				234923081EB85AEC00918086 /* ConvertTextToSpeechModels.swift in Sources */,
 				234922CF1EB85A9800918086 /* AppDelegate.swift in Sources */,
+				234923071EB85AEC00918086 /* ConvertTextToSpeechInteractor.swift in Sources */,
+				2349230A1EB85AEC00918086 /* ConvertTextToSpeechWorker.swift in Sources */,
+				234923061EB85AEC00918086 /* ConvertTextToSpeechViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		234922D21EB85A9800918086 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				234922D31EB85A9800918086 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		234922DA1EB85A9800918086 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
